@@ -96,7 +96,7 @@ public class BankingSystemDemo {
         for (BankAccount acc : accounts) {
             System.out.println("Account Holder: " + acc.getHolderName());
             System.out.println("Account Number: " + acc.getAccountNumber());
-            System.out.println("Balance: " + acc.getBalance());
+            System.out.println("Balane: " + acc.getBalance());
 
             // Deposit and Withdraw
             acc.deposit(1000);
